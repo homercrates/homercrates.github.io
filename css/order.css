@@ -1,0 +1,60 @@
+.orderContainer {
+    width: 400px;
+    height: 400px;
+}
+
+h1 {
+    border-bottom: 1px solid black;
+    
+}
+
+table{
+    width: 100%;
+    color: #4e4e4e;
+}
+
+
+.square {
+    width: 20%;
+    font-size: 40px;
+    text-align: center;
+}
+.square:after {
+    content: '';
+    display: block;
+    margin-top: 100%;
+}
+.square .content {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.choice {
+    height: 1em;
+    width: 50%;
+    font-size: 45pt;
+    text-align: center;
+}
+
+#pickBlack {
+    background-color: black;
+}
+#pickWhite {
+    background-color: grey;
+}
+
+#message {
+    font-size: 42pt;
+    text-align: center;
+    max-height: 50pt;
+}
+
+#restart {
+    font-size: 42pt;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+}
