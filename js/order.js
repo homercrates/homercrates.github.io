@@ -21,7 +21,7 @@ function nextMove(square){
         if(option == 'black'){
             square.style.backgroundColor = 'black';
         } else if(option == 'white'){
-            square.style.backgroundColor = 'grey';
+            square.style.backgroundColor = '#d48a6e';
         } 
         
         switchTurn();
