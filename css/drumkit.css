@@ -1,7 +1,7 @@
 .keys {
   display: flex;
   flex: 1;
-  min-height: 100vh;
+  min-height: 25vh;
   align-items: center;
   justify-content: center;
 }
