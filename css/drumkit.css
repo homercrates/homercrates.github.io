@@ -1,7 +1,7 @@
 .keys {
   display: flex;
   flex: 1;
-  min-height: 25vh;
+  min-height: 15vh;
   align-items: center;
   justify-content: center;
 }
@@ -22,8 +22,8 @@
 
 .playing {
   transform: scale(1.1);
-  border-color: #ffc600;
-  box-shadow: 0 0 1rem #ffc600;
+  border-color: #6f42c1;
+  box-shadow: 0 0 1rem #c1a0ff;
 }
 
 kbd {
@@ -35,5 +35,5 @@ kbd {
   font-size: 1.2rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
-  color: #ffc600;
+  color: #c1a0ff;
 }

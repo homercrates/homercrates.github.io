@@ -17,11 +17,11 @@ function setMessage(msg){
 
 
 function nextMove(square){
-    if(square.style.backgroundColor == ''){
+    if(square.style.backgroundColor == 'rgba(110, 66, 193, 0.5)'){
         if(option == 'black'){
             square.style.backgroundColor = 'black';
         } else if(option == 'white'){
-            square.style.backgroundColor = '#d48a6e';
+            square.style.backgroundColor = 'white';
         } 
         
         switchTurn();
@@ -71,6 +71,7 @@ function checkForWinner(move){
        checkRow(5,9,13,17,21, move) ||
        checkRow(1,7,13,19,25, move) ||
        checkRow(4,8,12,16, move) ||
+       checkRow(4,9,14,19,24) ||
        checkRow(22,18,14,10, move) ||
        checkRow(2,8,14,20, move) ||
        checkRow(6,12,18,24, move)){
@@ -107,5 +108,5 @@ function getBox(number){
 }  
 
 function clearBox(number){
-    document.getElementById("s" + number).style.backgroundColor ="";
+    document.getElementById("s" + number).style.backgroundColor ="rgba(110, 66, 193, 0.5)";
 }

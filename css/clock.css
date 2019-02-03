@@ -23,7 +23,9 @@
     .hand {
       width: 50%;
       height: 6px;
-      background: grey;
+      color: transparent;
+      box-shadow:  0 0 5px rgba(0,0,0,0.5);
+      
       position: absolute;
       top: 50%;
       transform-origin: 100%;
