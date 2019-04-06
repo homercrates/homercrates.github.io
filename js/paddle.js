@@ -8,6 +8,11 @@ cvs.style.border = "1px solid #000000";
 // canvas line width
 ctx.lineWidth = 3;
 
+//img for background
+const bgImg = new Image();
+bgImg.src = "img/backgroundw.jpg";
+
+
 // game variables and consts
 const paddleWidth = 100;
 const paddleHeight = 20;
