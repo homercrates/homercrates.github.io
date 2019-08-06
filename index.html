@@ -270,8 +270,31 @@
         </a>
         <!-- paddle end -->
 
-
         <hr class="m-0">
+
+        <!-- form section start -->
+        <hr class="m-0">
+        <form name="messageForm" >
+          <div class="form-group">
+            <label>Message: </label>
+            <input type="text" name="mInput">
+            <!-- <input type="submit" value="Submit"> -->
+        
+        <div class="form-group">
+          <label for="formControlSelect1">Output Style</label>
+          <select name="selection" class="form-control" id="formControlSelect1">
+            <option id="1" value="reversies">Reversinator</option>
+            <option value="2">2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+          </select>
+        </div>
+        <button type="button" class="btn btn-primary" onclick="onChangeTypeHandler()" class="button">Submit</button>
+        </form>
+        <p id="outPut">output here</p>
+        <p id="otheroutPut">output here</p>
+        <!-- form section End -->
 
         <!-- burger Builder start -->
         <hr class="m-0">
@@ -337,6 +360,34 @@
         </a>
         <!-- ruby project end -->
         <hr class="m-0">
+
+                <!-- ruby project start -->
+        <h3>Ruby on Rails blog hosted on Heroku</h3>
+        <p>A hosted Ruby on Rails site I made that can habe Blog posts out into it.  Comments on those posts
+        as well as images loaded up. </br> Looking into the Ruby on Rails documentation I put it together out of curiosity. </br> 
+        <a href="https://salty-castle-91675.herokuapp.com/" target="_new">Rails project Blog CMS</a> </p>
+
+        <a href="https://github.com/homercrates/my_ruby_port" target="_new">
+          <i class="fab fa-github"></i>
+        </a>
+        <!-- ruby project end -->
+        <hr class="m-0">
+        <!-- MERN STACK task list start -->
+        <h3>MERN stack -tasklist- hosted on Heroku</h3>
+        <p>MongoDB NodeJS backend, express middleman, React frontend 
+        </br>
+        Just a simple task list hosted on heroku.
+        </br>
+        I dont recall why I don't have it on github, I think it was security purposes of senative information.
+        This is something I need to come back to now that I know how to keep sensaive information such as passwords off of github. simple solution.
+        </br> 
+        <a href="https://frozen-cliffs-96264.herokuapp.com/" target="_new">MERN stack</a> </p>
+
+        <a href="https://github.com/homercrates/" target="_new">
+          <i class="fab fa-github"></i>
+        </a>
+        <!-- ruby project end -->
+        <hr class="m-0">        
 
         <!-- Kunf Fu Dice start -->
         <h3>Kung Fu Dice hosted on Github</h3>
@@ -500,7 +551,8 @@
     <!-- paddle JS -->
     <script src="js/paddle.js"></script>
 
-     
+    <!-- form -->
+    <script src="js/message.js"></script>
 
   </body>
 
